@@ -43,6 +43,7 @@ app.post('/', (req, res) => {
 
     const auth = {
         auth: {
+            type: 'OAuth2',
             api_key: API_KEY,
             domain: DOMAIN
         }
