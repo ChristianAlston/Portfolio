@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>christianalstondev.io</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="/index.css">
+</head>
+
+<body>
+    {{>nav}}
+    <div id="mainpage" class="mainpage">
+        <div class="herotitle">
+            <h1 class="enter">Enter the <span>mind</span> of Christian Alston</h1>
+            <a href="#about"><button class="go">Enter</button></a>
+        </div>
+    </div>
+
+    <div class="space">
+
+    </div>
+    <div class="morespace">
+
+    </div>
+    <div id="about" style="height: 10vh; width: 0; background-color: transparent;"></div>
+    <div class="aboutsection">
+        <div class="about">
+            <h1 class="sectionHeader">Coding is now my <span class="sectionSpan">life</span> .</h1>
+            <p class="subtext">After having spent a few years in the sales and warehousing industries I took the leap to
+                become a
+                software developer and it has been a radically life-changing decision. </p>
+        </div>
+        <img src="/suits.jpg" alt="" class="suitPic">
+        <img src="/warehouse.jpg" alt="" class="warehouse">
+        <div class="about2">
+            <h1 class="sectionHeader">I found I love to program when I first saw the <span
+                    class="sectionSpan">process</span> </h1>
+            <p class="subtext">To be able to use your creativity and know that it has no limits when it comes to coding
+                is why it has become my biggest passion.</p>
+        </div>
+    </div>
+    <div id="languages" class="languages">
+        <h1 class="tools">Here are the tools I use when I build.</h1>
+        <ul class="listOfIcons">
+            <li><i class="fab fa-html5"></i></li>
+            <li><i class="fab fa-css3-alt"></i></li>
+            <li><i class="fab fa-bootstrap"></i></li>
+            <li><i class="fab fa-js"></i></li>
+            <li><i class="fab fa-react"></i></li>
+            <li><i class="fab fa-node-js"></i></li>
+            <li><i class="fab fa-python"></i></li>
+            <li>Express</li>
+            <li>Mongodb</li>
+        </ul>
+    </div>
+
+    <div id="projects" class="projects">
+        <h1 class="projectTitle">My projects thus far</h1>
+        <div class="projectWrapper">
+            <div class="project">
+                <img src="/mock.jpg" alt="">
+                <div class="bottomDiv">
+                    <h1 class="projectTitle">Mock Page</h1>
+                    <a href="https://github.com/ChristianAlston/dribbble-site"
+                        target="_blank">https://github.com/ChristianAlston/dribbble-site</a>
+                    <p class="description">My first ever mock up page with Digital Crafts. The assignment was to
+                        recplicate a random website from dribbble.com using HTML and CSS.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="/covid.jpg" alt="">
+                <div class="bottomDiv">
+                    <h1 class="projectTitle">CovidPro+</h1>
+                    <a href="https://github.com/ChristianAlston/CovidPro"
+                        target="_blank">https://github.com/ChristianAlston/CovidPro</a>
+
+                    <p class="description">This project is a mock up built with React and CSS. CovidPro+ allows users to
+                        keep track of Covid-19 cases around the world thanks to an embedded tracker.</p>
+                </div>
+            </div>
+            <div class="project">
+                <img src="/flixify.jpg" alt="">
+                <div class="bottomDiv">
+                    <h1 class="projectTitle">Flixify</h1>
+                    <a href="https://github.com/ChristianAlston/MovieApp"
+                        target="_blank">https://github.com/ChristianAlston/MovieApp</a>
+
+                    <p class="description">This project was built using HTML, CSS, Mongodb, Node, and Express. Flixify
+                        allows users to search through a movie database for movies they would like to watch with
+                        friends.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="contact">
+        <h1 class="contactMe">Lets Get Started</h1>
+        <form action="/" method="post">
+            <input type="text" name="name" id="yourName" placeholder="name">
+            <input type="text" name="email" id="yourEmail" placeholder="email">
+            <textarea cols="48" rows="5" name="company" id="yourCompany" placeholder="Send me a message..."></textarea>
+            <button type="submit" class="submitButton">Submit</button>
+
+        </form>
+        <div class="wrapper">
+            <div class="buttonDiv">
+                <a href="#mainpage"><button class="backToTop">Back To Top</button></a>
+            </div>
+            <div class="imageWrapper"><img src="/profilepic.jpg" alt="" class="profilepic"></div>
+            <div class="lists">
+
+                <ul class="listOfMedia">
+                    <li><a href="https://github.com/ChristianAlston" target="_blank"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/christian-alston-dev/" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                    </li>
+                </ul>
+                <ul class="creds">
+                    <li>Christian Alston</li>
+                    <li>christianalstondev@gmail.com</li>
+                    <li>Full Stack Developer</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="/algo.js"></script>
+
+
+</html>

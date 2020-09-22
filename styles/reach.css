@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins';
+}
+
+button:focus {
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reach {
+    height: 15vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.thankYou {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.back {
+    height: 35%;
+    width: 100%;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    text-transform: uppercase;
+    margin: auto;
+    transition: .2s;
+}
+
+.back:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
