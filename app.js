@@ -6,6 +6,13 @@ const mustacheExpress = require('mustache-express')
 const nodemailer = require('nodemailer')
 const mailGun = require('nodemailer-mailgun-transport')
 require('dotenv').config()
+const ghpages = require('gh-pages')
+
+ghpages.publish('dist', (err) => {
+    if (err) {
+        console.log(err)
+    }
+})
 
 const PORT = process.env.PORT
 
@@ -43,7 +50,6 @@ app.post('/', (req, res) => {
 
     const auth = {
         auth: {
-            type: 'OAuth2',
             api_key: API_KEY,
             domain: DOMAIN
         }
