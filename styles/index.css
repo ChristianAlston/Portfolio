@@ -325,7 +325,7 @@ button:hover {
         background-color: transparent;
         position: relative;
         text-align: center;
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     form {
@@ -1050,6 +1050,7 @@ button:hover {
         width: 100%;
         background-color: transparent;
         position: relative;
+        padding-top: 20px;
     }
 
     .contactMe {
@@ -1416,6 +1417,7 @@ button:hover {
         width: 100%;
         background-color: transparent;
         position: relative;
+        padding-top: 20px;
     }
 
     .contactMe {
