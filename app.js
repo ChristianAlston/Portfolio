@@ -12,7 +12,7 @@ const secondEmail = process.env.SECONDEMAIL
 const subject = process.env.SUBJECT
 
 
-const PORT = 4000
+const PORT = process.env.PORT
 
 app.use(bodyParser.json())
 
@@ -35,8 +35,6 @@ app.use(bodyParser.urlencoded({
 app.get('/', (req, res) => {
     res.render('index')
 })
-
-
 
 app.listen(PORT, () => {
     console.log(`Port running on port ${PORT}`)
